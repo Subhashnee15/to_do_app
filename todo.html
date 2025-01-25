@@ -8,11 +8,22 @@
     </head>
     <body>
         <div class="container">
-            <h1>My To-Do List</h1>
-            <input type="text" id="task-input" placeholder="Add a new task...">
-            <button id="add-task-btn">Add Task</button>
-            <ul id="task-list"></ul>
+            <h1>Interactive To-Do List</h1>
+            <form id="taskForm">
+                <input type="text" id="taskInput" placeholder="Add a new task" required>
+                <select  id="prioritySelect">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+                <button type="submit">Add Task</button>
+            </form>
+            <div class="controls">
+                <button id="sortButton">Sort by priority</button>
+
+            </div>
+            <ul id="taskList"></ul>
         </div>
-        <script src="script.js"></script>
+        <script src="todo.js"></script>
     </body>
 </html>
