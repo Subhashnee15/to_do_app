@@ -12,7 +12,7 @@ Styled to be clean, responsive, and visually appealing. Each task item has a "De
 1.Adding a Task: When a user enters text and clicks the "Add Task" button, the task is added to the list.
 2. Marking a Task as Completed: Clicking on a task toggles its completion status by adding/removing a "completed" class, which applies a line-through style.
 3. Deleting a Task: Each task has a delete button that removes it from the list.
-. Persistence: Tasks are saved in localStorage, so they persist across page reloads.
+4. Persistence: Tasks are saved in localStorage, so they persist across page reloads.
 5.Running the Project:
 i.Create the directory structure as mentioned above (/todo-app/index.html, /todo-app/style.css, /todo-app/script.js).
 ii.Copy and paste the respective code into each file.
