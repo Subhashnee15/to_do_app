@@ -1,3 +1,6 @@
+
+https://github.com/user-attachments/assets/85c232bc-9a1b-42ed-a7de-1d3d2a6eabf0
+
 => HTML Structure:
 
 A simple input field (#task-input) to enter new tasks and a button (#add-task-btn) to add tasks to the list.
