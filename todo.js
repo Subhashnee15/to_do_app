@@ -61,10 +61,10 @@ document.getElementById('sortButton').addEventListener('click', () => {
     const taskList = document.getElementById('taskList');
     const tasks = Array.from(taskList.children);
     tasks.sort((a,b) => {
-        const priorityOrder = {Low : 1, Medium : 2, High: 3};
+        const priorityOrder = {low : 1, medium : 2, high: 3};
         const priorityA = a.classList[1];
         const priorityB = b.classList[1];
-        return priorityOrder[priorityA] - priorityOrder[priorityB];
+        return priorityOrder[priorityB] - priorityOrder[priorityA];
     });
     taskList.innerHTML = '';
     tasks.forEach(task => taskList.appendChild(task));
